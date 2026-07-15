@@ -9,17 +9,16 @@ This project predicts workers' compensation claim injury type from structured cl
 - Selected CatBoost as the best validation model with a mean validation macro F1 of **0.487**.
 - Achieved a final Kaggle macro F1 score of **0.408**, ranking **2nd place** on the competition leaderboard.
 
-## Technical Stack
+## Methods and Tools
 
-| Area | Tools and skills used |
+| Area | Used in this project |
 | --- | --- |
-| Programming environment | Python, Jupyter |
-| Data processing | pandas, NumPy |
-| Machine learning | scikit-learn, CatBoost, neural networks, random forests, logistic regression, naive Bayes |
-| Feature engineering | missing-value imputation, domain-aware outlier handling, categorical encoding, date-derived features |
-| Model evaluation | stratified validation, macro F1, class balancing |
-| Interpretability | SHAP feature importance |
-| Visualization | Matplotlib, Seaborn |
+| Classification setup | Imbalanced 8-class workers' compensation injury-type prediction |
+| Feature engineering | Date gaps, missing-form indicators, categorical encodings, domain-specific outlier handling |
+| Models explored | CatBoost, neural networks, random forests, logistic regression, Gaussian naive Bayes, one-vs-rest random forest |
+| Evaluation | Stratified validation, macro F1, class balancing, Kaggle leaderboard submission |
+| Interpretation | SHAP feature importance for the final CatBoost classifier |
+| Python tools | pandas, NumPy, scikit-learn, CatBoost, SHAP, Matplotlib, Seaborn |
 
 ## Data and Target
 
